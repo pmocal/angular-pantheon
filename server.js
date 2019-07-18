@@ -9,7 +9,7 @@ app.use(express.static(__dirname));
 
 // send the user to index html page in spite of the url
 app.get('*', (req, res) => {
-  res.sendFile(path.resolve(__dirname + '/dist/index.html'));
+  res.sendFile(path.resolve(__dirname + 'dist/index.html'));
 });
 
 app.listen(port);
