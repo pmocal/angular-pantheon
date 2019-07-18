@@ -10,6 +10,7 @@
     "e2e": "ng e2e",
     "postinstall": "ng build --prod"
   },
+  "main": "src/main.ts",
   "private": true,
   "dependencies": {
     "@angular/cli": "~8.1.1",
